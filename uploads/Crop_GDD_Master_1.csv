@@ -1,0 +1,176 @@
+Id,Crop_name,Variety,Growth_Stages,GDD_Req,AGDD,Stage_Completion,Kc,Base _Temp,Duration_in_Days_1,Cpe_ratio,Duration_in_Days,Cucmulative_days,ideal_min,ideal_max,ideal_meanrh
+1,Potato,Short,Seedling (S),216,216,216,0.45,7,75,1,12,12,20,25,65
+2,Potato,Short,Early Vegetative (EV),280,496,496,0.45,7,75,0.75,10,22,20,25,70
+3,Potato,Short,Late Vegetative (LV),324,820,820,0.75,7,75,0.75,15,37,20,25,65
+4,Potato,Short,Flowering (F),0,820,820,1.15,7,75,1.25,0,37,15,20,65
+5,Potato,Short,Development (D),978,1798,1798,0.85,7,75,0.75,38,75,15,20,65
+6,Potato,Medium,Seedling (S),246,246,246,0.4,7,95,1,12,12,20,25,65
+7,Potato,Medium,Early Vegetative (EV),312,558,558,1.25,7,95,0.75,15,27,20,25,70
+8,Potato,Medium,Late Vegetative (LV),464,1022,1022,1.25,7,95,0.75,18,45,20,25,65
+9,Potato,Medium,Flowering (F),0,1022,1022,0.75,7,95,1.25,0,45,15,20,65
+10,Potato,Medium,Development (D),1126,2148,2148,0.75,7,95,0.75,50,95,15,20,65
+11,Potato,Long,Seedling (S),253,253,253,0.4,7,110,1,12,12,20,25,65
+12,Potato,Long,Early Vegetative (EV),457,710,710,1.25,7,110,0.75,15,27,20,25,70
+13,Potato,Long,Late Vegetative (LV),592,1302,1302,1.25,7,110,0.75,24,51,20,25,65
+14,Potato,Long,Flowering (F),0,1302,1302,0.75,7,110,1.25,0,51,15,20,65
+15,Potato,Long,Development (D),1199,2501,2501,0.75,7,110,0.75,59,110,15,20,65
+16,Tomato,Medium,Seedling (S),219,219,219,0.45,7,70,1.25,15,15,20,30,65
+17,Tomato,Medium,Early Vegetative (EV),304,523,523,0.45,7,70,0.75,12,27,22,26,70
+18,Tomato,Medium,Late Vegetative (LV),329,852,852,0.75,7,70,0.75,12,39,22,26,65
+19,Tomato,Medium,Flowering (F),237.5,1089.5,1089.5,1.15,7,70,1,11,50,22,26,65
+20,Tomato,Medium,Development (D),393,1482.5,1482.5,0.8,7,70,1,20,70,22,26,65
+21,Sugarcane,Seasonal,Seedling (S),245,245,245,0.4,15,330,1.25,30,30,22,26,60
+22,Sugarcane,Seasonal,Early Vegetative (EV),875,1120,1120,1.25,15,330,1,60,90,26,34,65
+23,Sugarcane,Seasonal,Late Vegetative (LV),1085,2205,2205,1.25,15,330,0.75,120,210,28,31,65
+24,Sugarcane,Seasonal,Flowering (F),0,2205,2205,0.75,15,330,0.75,0,210,28,31,65
+25,Sugarcane,Seasonal,Development (D),875,3080,3080,0.75,15,330,0.75,120,330,18,30,45
+26,Sugarcane,Pre-seasonal,Seedling (S),545,545,545,0.4,15,450,1.25,45,45,22,26,60
+27,Sugarcane,Pre-seasonal,Early Vegetative (EV),1275,1820,1820,1.25,15,450,1,90,135,26,34,65
+28,Sugarcane,Pre-seasonal,Late Vegetative (LV),1185,3005,3005,1.25,15,450,0.75,150,285,28,31,65
+29,Sugarcane,Pre-seasonal,Flowering (F),0,3005,3005,0.75,15,450,0.75,0,285,28,31,65
+30,Sugarcane,Pre-seasonal,Development (D),1864,4869,4869,0.75,15,450,0.75,165,450,18,30,45
+31,Sugarcane,Adsali,Seedling (S),545,545,545,0.4,15,540,1.25,30,30,22,26,60
+32,Sugarcane,Adsali,Early Vegetative (EV),1275,1820,1820,1.25,15,540,1,120,150,26,34,65
+33,Sugarcane,Adsali,Late Vegetative (LV),1585,3405,3405,1.25,15,540,0.75,180,330,28,31,65
+34,Sugarcane,Adsali,Flowering (F),0,3405,3405,0.75,15,540,0.75,0,330,28,31,65
+35,Sugarcane,Adsali,Development (D),1275,4680,4680,0.75,15,540,0.75,210,540,18,30,45
+36,Soybean,Short,Seedling (S),300,300,300,0.4,5,85,1.25,7,7,15,22,75
+37,Soybean,Short,Early Vegetative (EV),284,584,584,1.25,5,85,1,12,19,22,30,75
+38,Soybean,Short,Late Vegetative (LV),483,1067,1067,1.25,5,85,0.75,21,40,22,30,65
+39,Soybean,Short,Flowering (F),355,1422,1422,0.75,5,85,1,12,52,20,25,70
+40,Soybean,Short,Development (D),623,2045,2045,0.75,5,85,0.75,33,85,15,22,65
+41,Soybean,Medium,Seedling (S),300,300,300,0.4,5,100,1.25,7,7,15,22,75
+42,Soybean,Medium,Early Vegetative (EV),385,685,685,1.25,5,100,1,15,22,22,30,75
+43,Soybean,Medium,Late Vegetative (LV),530,1215,1215,1.25,5,100,0.75,30,52,22,30,65
+44,Soybean,Medium,Flowering (F),455,1670,1670,0.75,5,100,1,15,67,20,25,70
+45,Soybean,Medium,Development (D),723,2393,2393,0.75,5,100,0.75,33,100,15,22,65
+46,Soybean,Long,Seedling (S),315,315,315,0.4,5,130,1.25,7,7,15,22,75
+47,Soybean,Long,Early Vegetative (EV),544,859,859,1.25,5,130,1,18,25,22,30,75
+48,Soybean,Long,Late Vegetative (LV),683,1542,1542,1.25,5,130,0.75,40,65,22,30,65
+49,Soybean,Long,Flowering (F),455,1997,1997,0.75,5,130,1,15,80,20,25,70
+50,Soybean,Long,Development (D),923,2920,2920,0.75,5,130,0.75,50,130,15,22,65
+51,Cotton,Short,Seedling (S),345,345,345,0.45,12,150,1.25,10,10,15,21,75
+52,Cotton,Short,Early Vegetative (EV),420,765,765,0.75,12,150,1,25,35,21,27,75
+53,Cotton,Short,Late Vegetative (LV),534,1299,1299,1.15,12,150,0.75,40,75,21,27,70
+54,Cotton,Short,Flowering (F),400,1699,1699,0.75,12,150,1,25,100,27,32,60
+55,Cotton,Short,Development (D),690,2389,2389,0.75,12,150,0.75,50,150,21,32,60
+56,Cotton,Medium,Seedling (S),345,345,345,0.4,12,180,1.25,12,12,15,21,75
+57,Cotton,Medium,Early Vegetative (EV),480,825,825,1.25,12,180,1,30,42,21,27,75
+58,Cotton,Medium,Late Vegetative (LV),674,1499,1499,1.25,12,180,0.75,50,92,21,27,70
+59,Cotton,Medium,Flowering (F),342,1841,1841,0.75,12,180,1,28,120,27,32,60
+60,Cotton,Medium,Development (D),672,2513,2513,0.75,12,180,0.75,60,180,21,32,60
+61,Cotton,Long,Seedling (S),345,345,345,0.4,12,210,1.25,12,12,15,21,75
+62,Cotton,Long,Early Vegetative (EV),580,925,925,1.25,12,210,1,30,42,21,27,75
+63,Cotton,Long,Late Vegetative (LV),624,1549,1549,1.25,12,210,0.75,65,107,21,27,70
+64,Cotton,Long,Flowering (F),342,1891,1891,0.75,12,210,1,28,135,27,32,60
+65,Cotton,Long,Development (D),696,2587,2587,0.75,12,210,0.75,75,210,21,32,60
+66,Maize,Short,Seedling (S),218,218,218,0.4,8,90,1.25,7,7,12,25,70
+67,Maize,Short,Early Vegetative (EV),480,698,698,0.8,8,90,1,12,19,20,28,70
+68,Maize,Short,Late Vegetative (LV),424,1122,1122,1.15,8,90,0.75,28,47,20,28,65
+69,Maize,Short,Flowering (F),342,1464,1464,0.7,8,90,1,12,59,20,28,60
+70,Maize,Short,Development (D),496,1960,1960,0.7,8,90,0.75,31,90,26,38,65
+71,Maize,Medium,Seedling (S),238,238,238,0.4,8,110,1.25,7,7,12,25,70
+72,Maize,Medium,Early Vegetative (EV),480,718,718,1.25,8,110,1,15,22,20,28,70
+73,Maize,Medium,Late Vegetative (LV),524,1242,1242,1.25,8,110,0.75,30,52,20,28,65
+74,Maize,Medium,Flowering (F),342,1584,1584,0.75,8,110,1,15,67,20,28,60
+75,Maize,Medium,Development (D),796,2380,2380,0.75,8,110,0.75,43,110,26,38,65
+76,Maize,Long,Seedling (S),238,238,238,0.4,8,125,1.25,9,9,12,25,70
+77,Maize,Long,Early Vegetative (EV),480,718,718,1.25,8,125,1,15,24,20,28,70
+78,Maize,Long,Late Vegetative (LV),624,1342,1342,1.25,8,125,0.75,40,64,20,28,65
+79,Maize,Long,Flowering (F),382,1724,1724,0.75,8,125,1,15,79,20,28,60
+80,Maize,Long,Development (D),896,2620,2620,0.75,8,125,0.75,46,125,26,38,65
+81,Paddy,Short,Seedling (S),193,193,193,0.4,8,90,1.25,16,16,25,30,85
+82,Paddy,Short,Early Vegetative (EV),350,543,543,0.8,8,90,1,10,26,25,30,80
+83,Paddy,Short,Late Vegetative (LV),324,867,867,1.15,8,90,0.75,20,46,25,30,80
+84,Paddy,Short,Flowering (F),342,1209,1209,1,8,90,1,15,61,26.5,29.5,75
+85,Paddy,Short,Development (D),496,1705,1705,1,8,90,0.75,29,90,20,25,70
+86,Paddy,Medium,Seedling (S),213,213,213,0.4,8,110,1.25,18,18,25,30,85
+87,Paddy,Medium,Early Vegetative (EV),450,663,663,1.25,8,110,1,12,30,25,30,80
+88,Paddy,Medium,Late Vegetative (LV),350,1013,1013,1.25,8,110,0.75,25,55,25,30,80
+89,Paddy,Medium,Flowering (F),513,1526,1526,0.75,8,110,1,18,73,26.5,29.5,75
+90,Paddy,Medium,Development (D),523,2049,2049,0.75,8,110,0.75,37,110,20,25,70
+91,Paddy,Long,Seedling (S),238,238,238,0.4,8,125,1.25,18,18,25,30,85
+92,Paddy,Long,Early Vegetative (EV),480,718,718,1.25,8,125,1,12,30,25,30,80
+93,Paddy,Long,Late Vegetative (LV),524,1242,1242,1.25,8,125,0.75,32,62,25,30,80
+94,Paddy,Long,Flowering (F),342,1584,1584,0.75,8,125,1,18,80,26.5,29.5,75
+95,Paddy,Long,Development (D),796,2380,2380,0.75,8,125,0.75,45,125,20,25,70
+96,Tur,Short,Seedling (S),349,349,349,0.4,8,140,1.25,12,12,29,36,75
+97,Tur,Short,Early Vegetative (EV),521,870,870,0.8,8,140,1,25,37,20,25,70
+98,Tur,Short,Late Vegetative (LV),638,1508,1508,1.15,8,140,0.75,33,70,20,25,65
+99,Tur,Short,Flowering (F),425,1933,1933,0.7,8,140,1,20,90,15,18,65
+100,Tur,Short,Development (D),826,2759,2759,0.7,8,140,0.75,50,140,26,35,60
+101,Tur,Medium,Seedling (S),349,349,349,0.4,8,160,1.25,12,12,29,36,75
+102,Tur,Medium,Early Vegetative (EV),521,870,870,0.8,8,160,1,28,40,20,25,70
+103,Tur,Medium,Late Vegetative (LV),738,1608,1608,1.15,8,160,0.75,40,80,20,25,65
+104,Tur,Medium,Flowering (F),425,2033,2033,0.7,8,160,1,20,100,15,18,65
+105,Tur,Medium,Development (D),967,3000,3000,0.7,8,160,0.75,60,160,26,35,60
+106,Tur,Long,Seedling (S),366,366,366,0.4,8,185,1.25,12,12,29,36,75
+107,Tur,Long,Early Vegetative (EV),543,909,909,0.8,8,185,1,30,42,20,25,70
+108,Tur,Long,Late Vegetative (LV),766,1675,1675,1.15,8,185,0.75,51,93,20,25,65
+109,Tur,Long,Flowering (F),425,2100,2100,0.7,8,185,1,22,115,15,18,65
+110,Tur,Long,Development (D),1093,3193,3193,0.7,8,185,0.75,70,185,26,35,60
+111,Brinjal,Medium,Seedling (S),168,168,168,0.45,11,75,1.25,15,15,26,30,65
+112,Brinjal,Medium,Early Vegetative (EV),212,380,380,0.45,11,75,0.75,12,27,15,26,70
+113,Brinjal,Medium,Late Vegetative (LV),363,743,743,0.75,11,75,0.75,12,39,15,26,65
+114,Brinjal,Medium,Flowering (F),192,935,935,1.15,11,75,1,11,50,15,26,65
+115,Brinjal,Medium,Development (D),478,1413,1413,0.8,11,75,1,25,75,15,26,65
+116,Wheat,Long,Seedling (S),238,238,238,0.35,5,135,1.25,12,12,18,25,65
+117,Wheat,Long,Early Vegetative (EV),377,615,615,0.75,5,135,1,20,32,20,23,60
+118,Wheat,Long,Late Vegetative (LV),396,1011,1011,1.15,5,135,0.75,35,67,20,23,65
+119,Wheat,Long,Flowering (F),197,1208,1208,0.45,5,135,1,20,87,23,25,65
+120,Wheat,Long,Development (D),605,1813,1813,0.45,5,135,0.75,48,135,23,30,50
+121,Wheat,Medium,Seedling (S),138,138,138,0.35,5,120,1.25,12,12,18,25,65
+122,Wheat,Medium,Early Vegetative (EV),277,415,415,0.75,5,120,1,18,30,20,23,60
+123,Wheat,Medium,Late Vegetative (LV),296,711,711,1.15,5,120,0.75,30,60,20,23,65
+124,Wheat,Medium,Flowering (F),167,878,878,0.45,5,120,1,20,80,23,25,65
+125,Wheat,Medium,Development (D),678,1556,1556,0.45,5,120,0.75,40,120,23,30,50
+126,Wheat,Short,Seedling (S),138,138,138,0.35,5,100,1.25,12,12,18,25,65
+127,Wheat,Short,Early Vegetative (EV),186,324,324,0.75,5,100,1,15,27,20,23,60
+128,Wheat,Short,Late Vegetative (LV),232,556,556,1.15,5,100,0.75,25,52,20,23,65
+129,Wheat,Short,Flowering (F),167,723,723,0.45,5,100,1,18,70,23,25,65
+130,Wheat,Short,Development (D),578,1301,1301,0.45,5,100,0.75,30,100,23,30,50
+131,Cucumber,Medium,Seedling (S),155,155,155,0.45,12,90,1.25,9,9,22,30,65
+132,Cucumber,Medium,Early Vegetative (EV),92,247,247,0.7,12,90,0.75,11,20,18,28,70
+133,Cucumber,Medium,Late Vegetative (LV),111,358,358,0.9,12,90,0.75,25,45,20,32,65
+134,Cucumber,Medium,Flowering (F),195,553,553,0.75,12,90,1,15,60,20,32,65
+135,Cucumber,Medium,Development (D),238,791,791,0.75,12,90,1,30,90,20,32,65
+136,Gram,Short,Seedling (S),98,98,98,0.45,10,75,1.25,9,9,28,35,65
+137,Gram,Short,Early Vegetative (EV),172,270,270,0.75,10,75,1,12,21,20,28,60
+138,Gram,Short,Late Vegetative (LV),312,582,582,0.75,10,75,0.75,18,39,20,27,60
+139,Gram,Short,Flowering (F),189,771,771,1.1,10,75,1,10,49,20,30,60
+140,Gram,Short,Development (D),309,1080,1080,0.5,10,75,0.75,26,75,20,30,55
+141,Gram,Medium,Seedling (S),98,98,98,0.45,10,90,1.25,10,10,28,35,65
+142,Gram,Medium,Early Vegetative (EV),172,270,270,0.75,10,90,1,15,25,20,28,60
+143,Gram,Medium,Late Vegetative (LV),412,682,682,0.75,10,90,0.75,20,45,20,27,60
+144,Gram,Medium,Flowering (F),238,920,920,1.1,10,90,1,12,57,20,30,60
+145,Gram,Medium,Development (D),369,1289,1289,0.5,10,90,0.75,33,90,20,30,55
+146,Gram,Long,Seedling (S),98,98,98,0.45,10,110,1.25,10,10,28,35,65
+147,Gram,Long,Early Vegetative (EV),227,325,325,0.75,10,110,1,15,25,20,28,60
+148,Gram,Long,Late Vegetative (LV),438,763,763,0.75,10,110,0.75,30,55,20,27,60
+149,Gram,Long,Flowering (F),238,1001,1001,1.1,10,110,1,12,67,20,30,60
+150,Gram,Long,Development (D),511,1512,1512,0.5,10,110,0.75,43,110,20,30,55
+151,Mustard,Short,Seedling (S),232,232,232,0.35,5,100,1.25,7,7,25,30,65
+152,Mustard,Short,Early Vegetative (EV),313,545,545,0.75,5,100,1,15,22,15,25,60
+153,Mustard,Short,Late Vegetative (LV),413,958,958,0.75,5,100,0.75,30,52,15,25,60
+154,Mustard,Short,Flowering (F),289,1247,1247,1.1,5,100,1,15,67,15,25,60
+155,Mustard,Short,Development (D),776,2023,2023,0.6,5,100,0.75,33,100,22,32,55
+156,Mustard,Medium,Seedling (S),232,232,232,0.35,5,120,1.25,9,9,25,30,65
+157,Mustard,Medium,Early Vegetative (EV),313,545,545,0.75,5,120,1,18,27,15,25,60
+158,Mustard,Medium,Late Vegetative (LV),613,1158,1158,0.75,5,120,0.75,32,59,15,25,60
+159,Mustard,Medium,Flowering (F),289,1447,1447,1.1,5,120,1,15,74,15,25,60
+160,Mustard,Medium,Development (D),887,2334,2334,0.6,5,120,0.75,46,120,22,32,55
+161,Mustard,Long,Seedling (S),232,232,232,0.35,5,140,1.25,9,9,25,30,65
+162,Mustard,Long,Early Vegetative (EV),313,545,545,0.75,5,140,1,24,33,15,25,60
+163,Mustard,Long,Late Vegetative (LV),774,1319,1319,0.75,5,140,0.75,37,70,15,25,60
+164,Mustard,Long,Flowering (F),319,1638,1638,1.1,5,140,1,17,87,15,25,60
+165,Mustard,Long,Development (D),976,2614,2614,0.6,5,140,0.75,53,140,22,32,55
+166,Chilli,Medium,Seedling (S),168,168,168,0.45,11,65,1.25,15,15,22,34,65
+167,Chilli,Medium,Early Vegetative (EV),212,380,380,0.45,11,65,0.75,10,25,22,28,70
+168,Chilli,Medium,Late Vegetative (LV),363,743,743,0.75,11,65,0.75,10,35,22,28,65
+169,Chilli,Medium,Flowering (F),192,935,935,1.15,11,65,1,11,46,22,28,65
+170,Chilli,Medium,Development (D),478,1413,1413,0.8,11,65,1,20,66,22,28,65
+171,Banana,Medium,Seedling (S),555,555,555,0.5,14,330,0.75,30,30,16,38,75
+172,Banana,Medium,Early Vegetative (EV),1047,1602,1602,0.5,14,330,1,45,75,16,38,75
+173,Banana,Medium,Late Vegetative (LV),1466,3068,3068,1.1,14,330,1,90,165,16,38,70
+174,Banana,Medium,Flowering (F),1266,4334,4334,1.1,14,330,1,50,215,16,38,75
+175,Banana,Medium,Development (D),345,4679,4679,1,14,330,1,120,335,16,38,65

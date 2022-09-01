@@ -1,0 +1,4 @@
+id,State,District,Crop,Year,Season,Area_Hectare,Production_Tonnes,Yield_Tonnes,Yield_qa,Yield_kg
+1,ANDHRA_PRADESH,ANANTPUR,Banana, 2002-03,Annual,1,1,1,1,1
+2,TELANGANA,ADILABAD,Brinjal, 2001-02,Rabi       ,2,2,2,2,2
+3,BIHAR,ARWAL,Cabbage, 2001-02,Kharif     ,3,3,3,3,3

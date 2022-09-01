@@ -1,0 +1,4 @@
+Id,Crop_name,Variety,Growth_Stages,GDD_Req,AGDD,Stage_Completion,Kc,Base _Temp,Duration_in_Days_1,Cpe_ratio,Duration_in_Days,Cucmulative_days,ideal_min,ideal_max,ideal_meanrh
+1,Banana,Short,,,,,,,,,,,,,
+2,Brinjal,Medium,,,,,,,,,,,,,
+3,Chilli,Long,,,,,,,,,,,,,

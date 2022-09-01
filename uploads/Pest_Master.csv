@@ -1,0 +1,4 @@
+Id,State,Crop,Growth Stage,Pest types,Pest_C_Name,Scientific name,Tmin,Tmax,RHmin,RHmax
+1,Madhya_Pradesh,Tomato,Development,Insect ,1,1,1,1,1,1
+2,Gujarat,Paddy,Seedling,Fungal_Disease,2,2,2,2,2,2
+3,Uttarakhand,Potato,Early_Vegetative,Bacterial_Disease,3,3,3,3,3,3

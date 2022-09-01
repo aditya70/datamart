@@ -1,0 +1,909 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    font-family: 'Roboto';
+    
+    
+}
+
+body {
+    line-height:1;
+}
+
+h1{
+    font-size: 22px;
+}
+h3{
+    font-size: 16px;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+    margin-bottom: 30px !important;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+body{
+    background-color: #f1f1f1;
+}
+
+
+.shz-header{
+    height: 40px;
+    background-color: #F37A10;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.shz-card-white{
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 20px;
+    width: 80%;
+    min-height: 220px;
+    max-width: 400px;
+    margin: auto;
+}
+
+
+.shz-card-white-lg{
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 20px;
+    width: 86%;
+    min-height: 320px;
+    max-width: 600px;
+    margin: auto;
+}
+
+
+.shz-card-msg{
+    background-color: #F37A10;
+    border-radius: 12px;
+    
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 20px;
+    width: 80%;
+    min-height: 80px;
+    max-width: 450px;
+    margin: auto;
+    color: white;
+}
+.shz-msg-text{
+    position: relative;
+    margin-left: 60px;
+    top: 30px;
+    font-weight: normal;
+    line-height: 1.3em;
+}
+.shz-card-inner{
+    
+    /*background-color: #F37A10;
+    color: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    width: 98%;
+    height: 80px;
+    margin: auto;
+    float: left;
+    /*margin: auto 6%;
+    border: none !important;*/
+    
+    
+    
+    background-color: #F37A10;
+    color: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    float: left;
+    margin: auto 6%;
+    border: none !important;
+    
+    
+    
+}
+
+
+.shz-card-uploaddata{
+    background-color: #F37A10;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    float: left;
+    margin: auto;
+    border: none !important;
+}
+
+.shz-padding-10{
+    padding: 10px;
+}
+
+
+
+.shz-welcome-text{
+    display: block;
+    margin: auto;
+    font-weight: 700;
+    margin-top: 12px;
+    padding-left: 15px;
+}
+
+.shz-title{
+    color: #707070;
+    font-weight: 500;
+}
+
+
+
+button.shz-submit{
+    width: 140px;
+    margin: 0 32% !important;
+    background-image: url(img/upload-white-small.png);
+    background-origin: content-box;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: left; 
+    transition: 0.5s all;
+    color:#fff;
+}
+
+
+button.shz-submit:hover{
+    background: white;
+    margin: 0 32% !important;
+     border: 2px solid #F37A10 !important;
+    color:#F37A10;
+     background-origin: content-box;
+    background-image: url(img/upload-orange-small.png);
+     background-repeat: no-repeat;
+    background-position: left; 
+    transition: 0.5s all;   
+}
+
+
+
+
+button.shz-submit-lg{
+    width: 140px;
+    margin: 0 37% !important;
+    background-image: url(img/upload-white-small.png);
+    background-origin: content-box;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: left; 
+    transition: 0.5s all;
+    color:#fff;
+}
+
+button.shz-submit-lg:hover{
+    background: white;
+    margin: 0 37% !important;
+     border: 2px solid #F37A10 !important;
+    color:#F37A10;
+     background-origin: content-box;
+    background-image: url(img/upload-orange-small.png);
+     background-repeat: no-repeat;
+    background-position: left; 
+    transition: 0.5s all;   
+}
+
+
+
+button.shz-uploaddata{
+   
+    width: 140px;
+    margin: 0 32% !important;
+    background-image: url(img/upload-white-small.png);
+    background-origin: content-box;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: left; 
+    transition: 0.5s all;
+    color:#fff;
+    
+}
+
+
+button.shz-uploaddata:hover{
+    background: white;
+    margin: 0 32% !important;
+     border: 2px solid #F37A10 !important;
+    color:#F37A10;
+     background-origin: content-box;
+    background-image: url(img/upload-orange-small.png);
+     background-repeat: no-repeat;
+    background-position: left; 
+    transition: 0.5s all;   
+    
+}
+
+
+button.shz-upload{
+    background-image: url(img/upload-white.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center; 
+    transition: 0.5s all;
+    color:#fff;
+    padding-top:120px;
+    
+}
+button.shz-upload:hover{
+    background: white;
+     border: 2px solid #F37A10 !important;
+    color:#F37A10;
+    background-image: url(img/upload-orange.png);
+     background-repeat: no-repeat;
+    background-position: center; 
+    transition: 0.5s all;   
+  
+}
+
+
+
+
+button.shz-view{
+    background-image: url(img/eye-white.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center; 
+    transition: 0.5s all;
+    color:#fff;
+    padding-top:120px;
+   
+}
+button.shz-view:hover{
+    background: white;
+     border: 2px solid #F37A10 !important;
+    color:#F37A10;
+    background-image: url(img/eye-orange.png);
+     background-repeat: no-repeat;
+    background-position: center; 
+    transition: 0.5s all;   
+   
+}
+
+
+
+button.shz-temp{
+    background-image: url(img/template-white.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 10%; 
+    transition: 0.5s all;
+    color:#fff;
+    /*padding-top:120px;*/
+    background-size: 30px;
+}
+button.shz-temp:hover{
+    background: white;
+     border: 2px solid #F37A10 !important;
+    color:#F37A10;
+    background-image: url(img/template-orange.png);
+     background-repeat: no-repeat;
+    background-position: 10%; 
+    transition: 0.5s all;   
+    background-size: 30px;
+}
+
+
+
+
+.shz-margin-bottom-10{
+    margin-bottom: 10px;
+}
+
+.shz-margin-left-1{
+    margin-left:3%;
+}
+.shz-margin-left-5{
+     margin-left:7%;
+}
+
+.shz-center-page{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.shz-text-org{
+    color: #F37A10;
+}
+.shz-text-white{
+    color: #fff;
+    font-weight: 400;
+}
+.shz-btn-text{
+    vertical-align: middle;
+}
+    
+.shz-btn-img{
+    display: block;
+    width: 65px;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+    
+
+.shz-center{
+    text-align: center;
+}
+
+.row{
+    height: 90px;
+    width: 100%;
+   
+    margin: 0 auto;
+}
+
+select{
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    border: 1px solid #F37A10 !important;
+    color: #F37A10;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('img/drop-icon.png')no-repeat;
+    background-position: 96% 50%;
+    
+    
+}
+
+
+
+input[type="number"]{
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    border: 1px solid #F37A10 !important;
+    color: #F37A10;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+   /* background: url('img/drop-icon.png')no-repeat;
+    background-position: 96% 50%;
+    */
+    
+}
+
+
+input [type="file"]{
+    background: green;
+}
+
+
+input [type="password"]{
+    background: green !important;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    border: 1px solid #F37A10 !important;
+    color: #F37A10;
+    padding-left: 15px;
+}
+
+
+
+div.upload {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #F37A10 !important;
+    color: #F37A10;
+    overflow: hidden;
+    background: url('img/add-icon.png')no-repeat;
+    background-position: 96% 50%;
+}
+
+div.upload input {
+    display: block !important;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid #F37A10 !important;
+    width: 100% !important;
+    height: 40px !important;
+    opacity: 0 !important;
+    color: #F37A10;
+    overflow: hidden !important;
+}
+
+.shz-text-box input{
+     display: block !important;
+     width: 100%;
+    height: 40px;
+    /*width: 96%;
+    height: 35px;*/
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #F37A10 !important;
+    color: #F37A10;
+   
+}
+
+
+.shz-text-box-small input{
+     display: block !important;
+     width: 44%;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #F37A10 !important;
+    color: #F37A10;
+   
+}
+
+
+
+.shz-col-50{
+    display: block !important;
+    width: 48%;
+    float: left;
+}
+
+
+.shz-col-40{
+    display: block !important;
+    width: 42%;
+    float: left;
+}
+
+.shz-col-30{
+    display: block !important;
+    width: 28%;
+    float: left;
+}
+
+
+
+
+.shz-error-msg{
+   background-color:#c83333;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 6px;
+    position: absolute;
+    top:65px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 15px;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    min-height: 10px;
+    max-width: 400px;
+    margin: auto;
+    color: white;
+    transition: 0.5s all;
+}
+
+.shz-icons{
+    position: relative;
+    width: 50px;
+    float: left;
+    top:20px;
+}
+
+.shz-logout-btn{
+    position: absolute;
+    top: 12px;
+    right:1%;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.shz-home-btn{
+      position: absolute;
+     top: 12px;
+    right:10%;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.shz-card-logoutbtn{
+    background-color: #F37A10;
+    
+    background-image: url('img/logout-white-icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    float: left;
+    margin: auto;
+    border: none !important;
+     transition: all 0.4s;
+}
+
+
+.shz-card-homebtn{
+    background-color: #F37A10;
+    background-image: url('img/home-white.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    float: left;
+    margin: auto;
+    border: none !important;
+     transition: all 0.4s;
+}
+
+
+
+
+
+
+.shz-card-logoutbtn:hover{
+    background-color: #fff;
+    
+    background-image: url('img/logout-orange-icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    color: #F37A10;
+    border-radius: 8px;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    float: left;
+    margin: auto;
+    border: none !important;
+    transition: all 0.4s;
+}
+
+
+
+.shz-card-homebtn:hover{
+    background-color: #fff;
+     background-image: url('img/home-orange.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    color: #F37A10;
+    border-radius: 8px;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    float: left;
+    margin: auto;
+    border: none !important;
+    transition: all 0.4s;
+}
+
+
+.shz-download-csv{
+    position: absolute;
+    right: 20;
+    padding: 15px;
+    background-color: #F37A10;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+
+.shz-download-csv:hover{
+    position: absolute;
+    right: 20;
+    padding: 15px;
+    background-color: #fff;
+    color: #F37A10;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: 0.5s all;
+    border: 1px solid #F37A10;
+}
+
+.shz-view-back{
+    background-image: url("img/back-white.png");
+    position: absolute;
+    left: 20;
+    padding: 15px;
+    background-color: #F37A10;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10%;
+    width: 120px;
+    transition: 0.5s all;
+}
+
+
+.shz-view-back:hover{
+    background-image: url("img/back-orange.png");
+    position: absolute;
+    left: 20;
+    padding: 15px;
+    background-color: #fff;
+    color: #F37A10;
+    border-radius: 4px;
+    text-decoration: none;
+    border: 1px solid #F37A10;
+    transition: 0.5s all;
+}
+
+
+
+
+.shz-add-record{
+    background-image: url("img/add-white.png");
+    position: absolute;
+    right: 220;
+    padding: 15px;
+    background-color: #F37A10;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10%;
+    width: 120px;
+    transition: 0.5s all;
+}
+
+
+.shz-add-record:hover{
+    background-image: url("img/add-orange.png");
+    position: absolute;
+    right: 220;
+    padding: 15px;
+    background-color: #fff;
+    color: #F37A10;
+    border-radius: 4px;
+    text-decoration: none;
+    border: 1px solid #F37A10;
+    transition: 0.5s all;
+}
+
+
+
+
+
+button.shz-logoutbtn{
+   
+    width: 120px;
+    background-image: url(img/logout-white-icon.png);
+    background-origin: content-box;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: left; 
+    transition: 0.5s all;
+    color:#fff;
+    
+}
+
+button.shz-homebtn{
+   
+    width: 120px;
+    background-image: url(img/logout-white-icon.png);
+    background-origin: content-box;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: left; 
+    transition: 0.5s all;
+    color:#fff;
+    
+}
+
+
+
+button.shz-logoutbtn:hover{
+    background: white;
+     border: 2px solid #F37A10 !important;
+    color:#F37A10;
+     background-origin: content-box;
+    background-image: url(img/logout-orange-icon.png);
+     background-repeat: no-repeat;
+    background-position: left; 
+    transition: 0.5s all;   
+    
+}
+
+.shz-bottom-logo{
+    position: absolute;
+    width: 100px;
+    top: 12%;
+    right: 2%;
+    
+}
+
+
+.shz-filetype-label{
+    position: relative;
+    top:8px;
+    left: 15px;
+}
+
+
+
+.shz-margin-left-ext{
+    margin:0 40% !important;
+}
+
+
+@media screen and (max-width: 500px){
+    
+    .shz-bottom-logo{
+   display: none;
+    
+}
+    
+    
+    .shz-card-inner{
+    
+    background-color: #F37A10;
+    color: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    width: 46%;
+    height: 120px;
+    margin: auto;
+    float: left;
+    margin: auto 2%;
+    border: none !important;
+    
+}
+
+    
+    
+    button.shz-upload{
+    background-image: url(img/upload-white.png);
+        background-size: 45px;
+        
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center; 
+    transition: 0.5s all;
+    color:#fff;
+    padding-top:80px;
+}
+button.shz-upload:hover{
+    background: white;
+     border: 2px solid #F37A10 !important;
+    color:#F37A10;
+    background-image: url(img/upload-orange.png);
+    background-size: 45px;
+     background-repeat: no-repeat;
+    background-position: center; 
+    transition: 0.5s all;   
+}
+
+
+
+
+button.shz-view{
+    background-image: url(img/eye-white.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center; 
+    transition: 0.5s all;
+    color:#fff;
+    padding-top:80px;
+}
+button.shz-view:hover{
+    background: white;
+     border: 2px solid #F37A10 !important;
+    color:#F37A10;
+    background-image: url(img/eye-orange.png);
+     background-repeat: no-repeat;
+    background-position: center; 
+    transition: 0.5s all;   
+}
+
+    
+}
